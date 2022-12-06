@@ -38,7 +38,7 @@ nav:only-of-type{
 ul>li{
     display:inline;
 }
-/* logo and button */
+/* LOGO & BUTTON */
 .logo{
     text-align:center;
 }
@@ -61,24 +61,59 @@ button>a{
     font-family:sans-serif;   
 }
 
-/* jumbotron */
+/* JUMBOTRON */
 .jumbotron{
     padding: 50px 0;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: 10px;;
     width:108%;
     display:flex;
 }
 
-.jumbotron>.content{
-    background: rgb(247, 130, 212);
-    min-height:400px;
-    width:50%;
-    border: 2px dashed black;
+.jumbotron>.jumbotron-content{
+    min-height:300px;
+    width:40%;
+    /* border: 2px dashed black; */
     margin:auto;
 }
-/* Main */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:43px;
+    color:white;
+    text-align:center;
+    line-height: 100px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color:white;
+    text-align:center;
+    line-height:28px;
+}
 
+/* JUMBOTRON INPUT */
+.jumbotron-input{
+    display:flex;
+    justify-content: center;
+    padding:19px 8px;
+}
+.jumbotron-input a{
+    font-size:16px;
+    padding:20px;
+}
+#black-label a{
+    color:white;
+}
+#black-label button{
+    background-color: rgb(35, 35, 35);
+    
+}
+
+
+
+
+/* Main */
 /* first section */
 /* second-fourth section */
 .container-white{
