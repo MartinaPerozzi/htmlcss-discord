@@ -208,16 +208,33 @@ footer>.container-footer{
     margin:auto;
     gap:50px 80px;
 }
+/* footer left side */
 footer h2{
     color:#8ea1e1;  
     font-size:25px;
 }
-.left-side span:last-child{
+.left-side span {
     color:white;
     font-family: sans-serif;
     font-size: 13px;
 }
+.left-side>img{
+    width:10%;
+}
 
+.left-side{
+    width:30%;
+}
+.social{
+    color:white;
+    padding: 10px 0;
+}
+.social>i{
+    padding:5px;
+    text-align: left;
+}
+
+/* footer right side */
 h5{
     color:#8ea1e1;
     font-size: 16px;
@@ -232,19 +249,10 @@ footer li{
     font-size: 14px;
 }
 
-footer div.left-side{
-    width:40%; 
-}
-.left-side>img{
-    width:10%;
-}
-
-.left-side{
-    width:30%;
-}
 .rightside-small{
     width:20%;
 }
+
 /* footer bar */
 .footer-bar{
     display:flex;
