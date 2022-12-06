@@ -227,36 +227,33 @@ footer div.left-side{
     width:10%;
 }
 
-
-
-/* final bar */
 .left-side{
     width:30%;
 }
 .rightside-small{
     width:20%;
 }
+/* footer bar */
 .footer-bar{
-    height:100px;
-    background-color:rgb(27, 26, 26);
     display:flex;
+    margin:auto;
     justify-content: center;
     align-items: center;
     padding:20px;
 }
 
-.footer-bar>div{
-    height:80px;
-    width:800px;
-    background-color: rgb(55, 206, 178);
+.footer-bar>.bar-elements{
     display:flex;
     justify-content: space-between;
-    padding:10px 0;
+    flex-basis:73%;
 }
-.bar-elements>div{
+/* .bar-elements>div{
     border:2px dashed black;
-    height:30px;
-    padding:20px;
-    line-height:0px;
-    background-color:rgb(245, 135, 212);
+} */
+#register {
+    background-color: #8ea1e1;
+}
+#register a:only-child{
+    color:white;
+    padding:10px;
 }
