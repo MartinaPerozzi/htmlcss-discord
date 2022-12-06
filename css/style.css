@@ -114,8 +114,8 @@ p {
 
 /* MAIN */
 /* first section */
-.container-white{
-    background-color:rgb(246, 245, 245);
+.container {
+    background-color:rgb(253, 253, 253);
     padding:80px 0;
     display:flex;
     justify-content: center;
@@ -141,56 +141,48 @@ main p{
     line-height: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.element-small{
-    background: rgb(57, 149, 211);
-    height:300px;
-    width:500px;
-    border: 2px dashed black;
-    margin: auto 0;
-}
-.element-big{
-    background: rgb(245, 135, 212);
-    height:300px;
-    width:300px;
-    border: 2px dashed black;
-    margin: auto 0;
-}
 /* second section */
-.container-grey{
-    background-color: lightgrey;
-    height:400px;
-    display:flex;
-    justify-content: center;
-}
 
-/* fifth section */
-.container-big-grey{
+.grey{
+    background-color: rgb(230, 228, 228);
+}
+.grey>.info-text{
+    width:19%;
+}
+/* fourth section */
+.big-grey{
     background-color: lightgrey;
-    height:700px;
     display:flex;
     justify-content: center;
     align-items:center;
+    flex-direction: column;
+    gap:30px;
 }
 
-.container-big-grey>div{
+.big-grey>.element{
     border: 2px dashed black;
-    width:800px;
-    height:600px;
-    background-color: green;
+    width:80%;
+    text-align:center;
+    padding:80px;
+}
+.info-text-big{
+    width:60%;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding:0px 0px 30px;
+}
+.big-input button, .big-input a{
+    padding:15px 20px;
+    background-color:#8ea1e1;
+    color:white;
+    border-radius: 25px;
+    font-size: 16px;;
 }
 
-/* footer */
+/* FOOTER */
 footer{
     background-color: rgb(27, 26, 26);
     height:550px;
