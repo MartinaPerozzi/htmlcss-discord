@@ -1,7 +1,7 @@
-/* HEADER */
 body{
     background-color:rgb(240, 240, 240); 
 }
+/* HEADER */
 .header-container{
     background-color: #3161e0;
     padding:15px 60px;
@@ -41,8 +41,6 @@ nav:only-of-type{
     display:inline;
 }
 /* LOGO & BUTTON */
-
-
 .label, .logo{
     text-align:center;
     line-height:13px;
@@ -53,14 +51,12 @@ nav:only-of-type{
     border:none;
     margin-bottom:10px;
 }
-
 button>a{
     color:black;
     text-decoration: none;
     font-size:15px;
     font-family:sans-serif;   
 }
-
 /* JUMBOTRON */
 .jumbotron{
     padding: 50px 0;
@@ -70,7 +66,6 @@ button>a{
     width:108%;
     display:flex;
 }
-
 .jumbotron>.jumbotron-content{
     min-height:300px;
     width:40%;
@@ -93,7 +88,6 @@ p {
 #white{
     color:white;
 }
-
 /* JUMBOTRON INPUT */
 .jumbotron-input{
     display:flex;
@@ -108,12 +102,10 @@ p {
     color:white;
 }
 #black-label button{
-    background-color: rgb(35, 35, 35);
-    
+    background-color: rgb(35, 35, 35);    
 }
-
 /* MAIN */
-/* first section */
+/* first - third section */
 .container {
     rgb(240, 240, 240);
     padding:80px 0;
@@ -123,7 +115,6 @@ p {
     width:100vw;
     margin:auto;
 }
-
 .visual-iteml{
     border: 2px dashed black;
     margin: auto 0;
@@ -144,7 +135,6 @@ main p{
 }
 
 /* WAVE TRY */
-
 .white{
     background-color: rgb(240, 240, 240);;
     background: url(../img/wave-2.svg);
@@ -159,7 +149,6 @@ main p{
     background-size: cover;
     background-position: bottom;  
 }
-
 /* second section */
 .grey>.info-text{
     width:19%;
@@ -191,9 +180,7 @@ h3{
     border-radius: 25px;
     font-size: 16px;;
 }
-
 /* FOOTER */
-
 footer{
     background-color: rgb(27, 26, 26);
     padding:20px 100px;
@@ -208,7 +195,7 @@ footer>.container-footer{
     margin:auto;
     gap:50px 80px;
 }
-/* footer left side */
+/* footer left-side */
 footer h2{
     color:#8ea1e1;  
     font-size:25px;
@@ -234,7 +221,7 @@ footer h2{
     text-align: left;
 }
 
-/* footer right side */
+/* footer right-side */
 h5{
     color:#8ea1e1;
     font-size: 16px;
