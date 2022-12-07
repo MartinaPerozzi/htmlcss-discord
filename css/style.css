@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color:rgb(240, 240, 240); 
-}
+} */
 /* HEADER */
 .header-container{
     background-color: #3161e0;
@@ -132,30 +132,34 @@ h2{
 main p{
     line-height: 24px;
 }
+/* WAVE */
+main>.bg-white::after{
+    content:'';
+    display:block;
+    background-image:url(../img/wave.svg);
+    height:80px;
+    background-size:contain;
+}
+main>.bg-grey::after{
+    content:'';
+    display:block;
+    background-image:url(../img/wave.svg);
+    height:80px;
+    background-size:contain;
+    transform:scaleY(-1);
+}
 
-/* WAVE TRY */
-.white{
-    background-color: rgb(240, 240, 240);;
-    background: url(../img/wave-2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;   
-}
-.grey{
-    background-color: rgb(230, 228, 228);
-    background: url(../img/wave-1.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;  
-}
 /* second section */
 .grey>.info-text{
     width:19%;
 }
+.grey{
+    background-color: #e2e2e2;
+}
 
 /* fourth section */
 .big-grey{
-    /* background-color: rgb(240, 240, 240); */
+    background-color: #e2e2e2;
     display:flex;
     justify-content: center;
     align-items:center;
