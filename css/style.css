@@ -107,7 +107,6 @@ p {
 /* MAIN */
 /* first - third section */
 .container {
-    rgb(240, 240, 240);
     padding:80px 0;
     display:flex;
     justify-content: center;
