@@ -5,7 +5,6 @@
 .header-container{
     background-color: #3161e0;
     padding:15px 60px;
-    display:flex;
 }
 /* NAV*/
 .header-nav{
@@ -22,7 +21,7 @@
 
 .nav-link>a{
     color:white;
-    text-decoration: none;
+    text-decoration:none;
     padding:25px;
     font-size:15px;
     font-family:sans-serif;
@@ -31,10 +30,9 @@
 nav:only-of-type{
     flex-grow: 1;
     text-align:center;
-    list-style: none;
+    list-style:none;
     line-height:34px;
     min-width: 60%;
-    /* margin-top:8px; */
 }
 
 .nav-bar>li{
@@ -47,23 +45,22 @@ nav:only-of-type{
 }
 .label>button{
     padding:10px;
-    border-radius: 20px;
+    border-radius:20px;
     border:none;
     margin-bottom:10px;
-}
-button>a{
     color:black;
-    text-decoration: none;
+    text-decoration:none;
     font-size:15px;
-    font-family:sans-serif;   
+    font-family:sans-serif;
 }
+
 /* JUMBOTRON */
 .jumbotron{
     padding: 50px 0;
     background-image: url(../img/jumbo.png);
-    background-size: cover;
+    background-size:cover;
     background-position: 10px;;
-    width:108%;
+    width:100%;
     display:flex;
 }
 .jumbotron>.jumbotron-content{
@@ -72,21 +69,22 @@ button>a{
     /* border: 2px dashed black; */
     margin:auto;
 }
-h1{
+.jumbotron h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size:43px;
     color:white;
     text-align:center;
     line-height: 100px;
 }
+#white{
+    color:white;
+}
+/* all <p> in page */
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size:17px;
     line-height:28px;
     color:rgb(23, 23, 23);
-}
-#white{
-    color:white;
 }
 /* JUMBOTRON INPUT */
 .jumbotron-input{
@@ -94,15 +92,13 @@ p {
     justify-content: center;
     padding:19px 8px;
 }
-.jumbotron-input a{
+.jumbotron-input>button{
     font-size:16px;
-    padding:20px;
+    padding:12px 30px;
 }
-#black-label a{
+#black-label>button{
     color:white;
-}
-#black-label button{
-    background-color: rgb(35, 35, 35);    
+    background-color: rgb(35, 35, 35);   
 }
 /* MAIN */
 /* first - third section */
@@ -114,23 +110,20 @@ p {
     width:100vw;
     margin:auto;
 }
-.visual-iteml{
-    border: 2px dashed black;
-    margin: auto 0;
-}
 .info-text{
     width:20%;
     height:100%;
     /* border: 2px dashed black; */
     margin:28px 0px;
 }
+/* all sections title */
 h2{
     font-size:40px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom:20px;
 }
 main p{
-    line-height: 24px;
+    line-height: 25px;
 }
 /* WAVE */
 main>.bg-white::after{
@@ -149,39 +142,35 @@ main>.bg-grey::after{
     transform:scaleY(-1);
 }
 
-/* second section */
-.grey>.info-text{
-    width:19%;
-}
-.grey{
+/* second section and fourth section */
+.grey, .big-grey{
     background-color: #e2e2e2;
 }
 
 /* fourth section */
 .big-grey{
-    background-color: #e2e2e2;
     display:flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
     gap:30px;
 }
+.big-grey h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding:0px 0px 30px;
+}
 
 .info-text-big{
     width:60%;
     text-align: center;
 }
-h3{
-    font-size: 25px;
-    font-family: sans-serif;
-    padding:0px 0px 30px;
-}
-.big-input button, .big-input a{
-    padding:15px 20px;
+.big-grey button{
+    padding:15px 35px;
     background-color:#8ea1e1;
     color:white;
-    border-radius: 25px;
-    font-size: 16px;;
+    border-radius:25px;
+    font-size:16px;
 }
 /* FOOTER */
 footer{
@@ -199,11 +188,14 @@ footer>.container-footer{
     gap:50px 80px;
 }
 /* footer left-side */
-footer h2{
+.left-side{
+    width:30%;
+}
+.left-side h2{
     color:#8ea1e1;  
     font-size:25px;
 }
-.left-side span {
+.left-side span{
     color:white;
     font-family: sans-serif;
     font-size: 13px;
@@ -211,36 +203,32 @@ footer h2{
 .left-side>img{
     width:10%;
 }
-
-.left-side{
-    width:30%;
-}
 .social{
     color:white;
     padding: 10px 0;
 }
 .social>i{
-    padding:5px;
+    padding:5px 5px 5px 0px;
     text-align: left;
 }
 
 /* footer right-side */
-h5{
+.rightside-small{
+    width:20%;
+}
+.rightside-small h5{
     color:#8ea1e1;
     font-size: 16px;
     margin-bottom:8px;
     font-family: sans-serif;
 }
-footer li{
+.rightside-small li{
     color:white;
     list-style: none;
     line-height:30px;
     font-family: sans-serif;
     font-size: 14px;
-}
-
-.rightside-small{
-    width:20%;
+    text-align: left;
 }
 
 /* footer bar */
@@ -258,11 +246,13 @@ footer li{
     flex-basis:72%;
 }
 
-#register {
+.footer-bar button{
     background-color: #8ea1e1;
-}
-#register a:only-child{
     color:white;
-    padding:10px;
+    padding:10px 25px;
+    border-radius:25px;
+    font-size:16px;
+    border:0px;
 }
+
 
